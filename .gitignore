@@ -1,0 +1,17 @@
+# Unity
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Obj/
+UnityProject/Build/
+UnityProject/Logs/
+UnityProject/UserSettings/
+
+# Python / EZ-VSL
+EZ-VSL/__pycache__/
+EZ-VSL/venv/
+EZ-VSL/*.pyc
+
+# 모델 가중치 (용량 큼)
+*.pt
+*.pth
+*.ckpt
