@@ -1,8 +1,8 @@
 import os
 import shutil
 
-data_root = r'C:\Users\PARK SEUNGHYEON\Downloads\Dataset'
-out_root = r'C:\Users\PARK SEUNGHYEON\Downloads\Flickr-SoundNet'
+data_root = os.environ.get("DATA_ROOT", "./data")
+out_root = os.environ.get("OUT_ROOT", "./out")
 
 os.makedirs(out_root + r'\frames', exist_ok=True)
 os.makedirs(out_root + r'\audio', exist_ok=True)
